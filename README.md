@@ -29,7 +29,7 @@ Usage (in client's application):
 
 ./config/default.js
     
-    var email = require('intents-ses');
+    var ses = require('intents-ses');
     var s3 = require('intents-s3');
       
     exports.email = ses({
