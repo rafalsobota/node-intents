@@ -1,0 +1,16 @@
+{
+  "name": "intents",
+  "version": "0.1.0",
+  "main": "./lib/intents.js",
+  "description": "Intents for node-based systems.",
+  "author": {
+    "name": "Rafał Sobota",
+    "email": "ravsobota@gmail.com"
+  },
+  "dependencies": {
+    "config": "0.4.x"
+  },
+  "engines": {
+    "node": ">0.4.x"
+  }
+}
