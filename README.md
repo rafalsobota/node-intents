@@ -33,12 +33,12 @@ Usage (in client's application):
     var s3 = require('intents-s3');
       
     exports.email = ses({
-      key: 'my-key'
+      key: 'my-key',
       secret: 'my-secret'
     });
     
     exports.storage = s3({
-      key: 'my-key'
-      secret: 'my-secret'
-      bucket: 'my-bucket
+      key: 'my-key',
+      secret: 'my-secret',
+      bucket: 'my-bucket'
     });
